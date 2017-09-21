@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">xogame</string>
+    <string name="main_string">XO Game!</string>
+    <string name="new_game">New Game</string>
+    <string name="load_game">Load Saved</string>
+    <string name="resume">Resume</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6924471012236853/8094422194</string>
+
+</resources>

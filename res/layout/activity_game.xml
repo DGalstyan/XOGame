@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:soundEffectsEnabled="true"
+	android:id="@+id/layout_id"
+	android:background="@drawable/bg"
+	android:gravity="center_vertical"
+	>
+<TextView
+            android:id="@+id/headertw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="@string/main_string"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+<Button
+    android:id="@+id/resume"
+    android:layout_width="240dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dip"
+    android:background="@drawable/button"
+    android:padding="10dp"
+    android:layout_gravity="center"
+    android:text="@string/resume"
+    android:textColor="@color/white"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:visibility="gone" />
+
+<Button
+    android:id="@+id/new_game"
+    android:layout_width="240dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dip"
+    android:background="@drawable/button"
+    android:padding="10dp"
+    android:layout_gravity="center"
+    android:text="@string/new_game"
+    android:textColor="@color/white"
+    android:textSize="20sp"
+    android:textStyle="bold"/>
+
+<Button
+    android:id="@+id/load_saves"
+    android:layout_width="244dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dip"
+    android:background="@drawable/button"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:text="@string/load_game"
+    android:textColor="@color/white"
+    android:textSize="20sp"
+    android:textStyle="bold" />
+
+</LinearLayout>
